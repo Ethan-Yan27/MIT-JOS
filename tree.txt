@@ -1,0 +1,78 @@
+.
+├── a.out
+├── boot
+│   ├── boot.S
+│   ├── main.c
+│   ├── Makefrag
+│   └── sign.pl
+├── CODING
+├── conf
+│   ├── env.mk
+│   └── lab.mk
+├── fs
+│   └── testshell.key
+├── GNUmakefile
+├── grade-lab1
+├── gradelib.py
+├── handin-prep
+├── inc
+│   ├── assert.h
+│   ├── COPYRIGHT
+│   ├── elf.h
+│   ├── error.h
+│   ├── kbdreg.h
+│   ├── memlayout.h
+│   ├── mmu.h
+│   ├── stab.h
+│   ├── stdarg.h
+│   ├── stdio.h
+│   ├── string.h
+│   ├── types.h
+│   └── x86.h
+├── kern
+│   ├── console.c
+│   ├── console.h
+│   ├── COPYRIGHT
+│   ├── entrypgdir.c
+│   ├── entry.S
+│   ├── init.c
+│   ├── kdebug.c
+│   ├── kdebug.h
+│   ├── kernel.ld
+│   ├── Makefrag
+│   ├── monitor.c
+│   ├── monitor.h
+│   └── printf.c
+├── lib
+│   ├── printfmt.c
+│   ├── readline.c
+│   └── string.c
+├── mergedep.pl
+├── obj
+│   ├── boot
+│   │   ├── boot
+│   │   ├── boot.asm
+│   │   ├── boot.o
+│   │   ├── boot.out
+│   │   └── main.o
+│   └── kern
+│       ├── console.o
+│       ├── entry.o
+│       ├── entrypgdir.o
+│       ├── init.o
+│       ├── kdebug.o
+│       ├── kernel
+│       ├── kernel.asm
+│       ├── kernel.img
+│       ├── kernel.sym
+│       ├── monitor.o
+│       ├── printfmt.o
+│       ├── printf.o
+│       ├── readline.o
+│       └── string.o
+├── README.md
+├── tree.txt
+└── user
+    └── sendpage.c
+
+10 directories, 65 files
